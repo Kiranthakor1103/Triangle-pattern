@@ -21,7 +21,7 @@ const button1 = document.getElementById("generateButton1")
 
         // Generate stars using a for loop
         for (let k = 0; k < i; k++) {
-          stars += "*"=" "; // print star + space
+          stars += "*"+" "; // print star + space
         }
 
         pattern += spaces + stars + spaces+ "\n"; // Add spaces and stars
