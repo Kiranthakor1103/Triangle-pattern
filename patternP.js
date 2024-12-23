@@ -31,7 +31,7 @@ const button1 = document.getElementById("generateButton1")
    
     }
    else {
-    output.textContent = "Please enter a valid positive number."; // Error message
+    output.textContent = "Please enter a valid positive number."; // Error message when negative number or  blank
   }
 }
 
@@ -43,7 +43,6 @@ const button1 = document.getElementById("generateButton1")
     output.textContent = ""; // Clear previous output
     let pattern = "";
 
-      // Odd number: standard odd pattern
       for (let i = 1; i<=num; i += 1) {
         let spaces = "";
         let stars = "";
@@ -65,7 +64,7 @@ const button1 = document.getElementById("generateButton1")
     }
    
   else{
-    output.textContent = "Please enter a valid positive number."; // Error message
+    output.textContent = "Please enter a valid positive number."; // Error message when negative number or  blank
   }
   }
 
